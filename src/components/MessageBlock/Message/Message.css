@@ -1,0 +1,30 @@
+.Message{
+    padding: 7px 15px 7px 15px;
+    margin: 5px 0 15px 0;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    background: #47a2d0;
+    border-radius: 4px 0 30px 14px;
+}
+
+.Me{
+    text-align: right;
+    border-radius: 0 0 14px 30px;
+    background:  #59bef1;
+}
+
+.Me .Sender{
+    color:  #19baef;
+}
+
+.Sender{
+    display: inline-block;
+    position: absolute;
+    bottom: -11px;
+    padding: 2px;
+    font-size: 8px;
+    right: -1px;
+    color: #0884c3;
+}
+

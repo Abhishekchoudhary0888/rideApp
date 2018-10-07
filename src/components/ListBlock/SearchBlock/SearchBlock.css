@@ -1,0 +1,12 @@
+.SearchBlock {
+    position: relative;
+}
+
+.Input{
+    border: 1px solid #d9eef7;
+    width: 100%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1.4rem;
+}
