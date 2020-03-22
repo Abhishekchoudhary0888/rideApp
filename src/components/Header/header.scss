@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  h2 {
+    padding: 10px 20px;
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+  }
+  .profile-img {
+    cursor: pointer;
+  }
+  .profile-block {
+    display: block;
+    background: #ddd;
+    padding: 10px;
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+  }
+}
