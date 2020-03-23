@@ -19,6 +19,15 @@ const Details = () => {
         raiting: "4"
       },
       {
+        name: "Krishna",
+        awayTime: "3",
+        routeOrigin: "koramangala",
+        routeDetination: "WhiteField",
+        car: "Polo",
+        seatAvailable: "3",
+        raiting: "4"
+      },
+      {
         name: "Megha",
         awayTime: "3",
         routeOrigin: "koramangala",
@@ -33,7 +42,43 @@ const Details = () => {
         routeOrigin: "koramangala",
         routeDetination: "WhiteField",
         car: "Polo",
-        seatAvailable: "3",
+        seatAvailable: "2",
+        raiting: "5"
+      },
+      {
+        name: "Roy",
+        awayTime: "4",
+        routeOrigin: "koramangala",
+        routeDetination: "WhiteField",
+        car: "Polo",
+        seatAvailable: "2",
+        raiting: "5"
+      },
+      {
+        name: "Rani",
+        awayTime: "10",
+        routeOrigin: "koramangala",
+        routeDetination: "btm",
+        car: "Maruti",
+        seatAvailable: "1",
+        raiting: "5"
+      },
+      {
+        name: "Sohan",
+        awayTime: "10",
+        routeOrigin: "koramangala",
+        routeDetination: "btm",
+        car: "Maruti",
+        seatAvailable: "1",
+        raiting: "5"
+      },
+      {
+        name: "Jay",
+        awayTime: "10",
+        routeOrigin: "koramangala",
+        routeDetination: "btm",
+        car: "Maruti",
+        seatAvailable: "1",
         raiting: "5"
       }
     ],
@@ -44,7 +89,25 @@ const Details = () => {
         routeOrigin: "btm",
         routeDetination: "WhiteField",
         car: "Polo",
-        seatAvailable: "3",
+        seatAvailable: "2",
+        raiting: "3"
+      },
+      {
+        name: "Neha",
+        awayTime: "3",
+        routeOrigin: "btm",
+        routeDetination: "WhiteField",
+        car: "Polo",
+        seatAvailable: "2",
+        raiting: "3"
+      },
+      {
+        name: "Aditi",
+        awayTime: "3",
+        routeOrigin: "btm",
+        routeDetination: "WhiteField",
+        car: "Polo",
+        seatAvailable: "2",
         raiting: "3"
       },
       {
@@ -54,7 +117,25 @@ const Details = () => {
         routeDetination: "koramangala",
         car: "Polo",
         seatAvailable: "3",
-        raiting: "2"
+        raiting: "2.7"
+      },
+      {
+        name: "Ajay",
+        awayTime: "3",
+        routeOrigin: "btm",
+        routeDetination: "koramangala",
+        car: "Polo",
+        seatAvailable: "3",
+        raiting: "2.7"
+      },
+      {
+        name: "Atul",
+        awayTime: "3",
+        routeOrigin: "btm",
+        routeDetination: "koramangala",
+        car: "Polo",
+        seatAvailable: "3",
+        raiting: "2.7"
       },
       {
         name: "Abhi",
@@ -62,7 +143,16 @@ const Details = () => {
         routeOrigin: "btm",
         routeDetination: "WhiteField",
         car: "Polo",
-        seatAvailable: "3",
+        seatAvailable: "1",
+        raiting: "4"
+      },
+      {
+        name: "Jay",
+        awayTime: "3",
+        routeOrigin: "btm",
+        routeDetination: "koramangala",
+        car: "Polo",
+        seatAvailable: "2",
         raiting: "4.8"
       }
     ]

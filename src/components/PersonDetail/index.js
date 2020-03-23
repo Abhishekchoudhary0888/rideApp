@@ -4,7 +4,6 @@ import Avatar from "./images/avatar.jpg"
 import SelectedRide from "./images/selected.jpg"
 import Phone from "./images/phone.jpg"
 const PersonDetail = props => {
-  debugger
   const {
     selectedIndex,
     indexNumber,
@@ -60,7 +59,6 @@ const PersonDetail = props => {
       </div>
     )
   }
-  debugger
   return (
     <div
       className={indexNumber === selectedIndex ? "person active" : "person"}
