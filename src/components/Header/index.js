@@ -1,34 +1,24 @@
-import React, { useState, useEffect, useContext } from "react"
-// import classes from "./login.scss"
-
-import Profile from "../Profile"
+import React from "react"
+import { useHistory } from "react-router-dom"
 import "./header.scss"
-import ProfileImg from "./images/profile.jpg"
+import ProfileImg from "../../assets/logo.svg"
 
-const Header = props => {
-  const { title = "", isProfile = false } = props || {}
-  const [profileState, setProfileState] = useState(false)
+const Header = React.memo((props) => {
+  const history = useHistory()
+  const clickHandler = () => {
+    history.push("/")
+  }
   return (
     <div className="header">
-      <h2>{title}</h2>
-      {isProfile && (
-        <img
-          className="profile-img"
-          src={ProfileImg}
-          alt="Profile"
-          width="30"
-          height="30"
-          onClick={() => setProfileState(!profileState)}
-        />
-      )}
-
-      {profileState && (
-        <div className="profile-block">
-          <Profile />
-        </div>
-      )}
+      <img
+        className="profile-img"
+        src={ProfileImg}
+        alt="Profile"
+        width="80"
+        onClick={clickHandler}
+      />
     </div>
   )
-}
+})
 
 export default Header

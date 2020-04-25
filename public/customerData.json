@@ -1,0 +1,36 @@
+[
+  {
+    "123": {
+      "id": "123",
+      "name": "Abhishek",
+      "sex": "Male",
+      "age": "30",
+      "address": [
+        "A-sector, Sakti Nagar",
+        "B-sector, Krishna Nagar",
+        "D-sector, CHS Nagar"
+      ]
+    },
+    "124": {
+      "id": "124",
+      "name": "Megha",
+      "sex": "Female",
+      "age": "21",
+      "address": ["C-sector, RT Nagar"]
+    },
+    "125": {
+      "id": "125",
+      "name": "Ankur",
+      "sex": "Male",
+      "age": "25",
+      "address": ["E-sector, KK Nagar", "F-sector, Tilak Nagar"]
+    },
+    "126": {
+      "id": "126",
+      "name": "Jay",
+      "sex": "Male",
+      "age": "20",
+      "address": ["G-sector, B-road, Jain Nagar"]
+    }
+  }
+]

@@ -1,3 +1,4 @@
 import { createContext } from "react"
 
-export const LocationContext = createContext([{}, () => {}])
+export const UserContext = createContext([{}, () => {}])
+export const UserSelectionContext = createContext([{}, () => {}])
